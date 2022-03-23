@@ -20,5 +20,11 @@ public class ApplicationController {
         return "Pune";
 
     }
+    @GetMapping("/department")
+    public String department(){
+
+        return "HR";
+
+    }
 
 }
